@@ -1,0 +1,170 @@
+{
+  "legalEntityInfo": [
+    {
+      "customerMdmId": "qwe3",
+      "legalEntityId": 3,
+      "dmPprofCustomerSegment": {
+        "trmPartyId": 0,
+        "mdmCustomerId": "",
+        "customerSegmentCd": "",
+        "licActivityKindNm": "",
+        "startDttm": "",
+        "finishDttm": "",
+        "trmLeadKeyId": "",
+        "sequenceId": 0,
+        "dmPprofCorpCustomer": {
+          "customerSegmentMdmId": "",
+          "salaryProjectFlg": "",
+          "systemId": "",
+          "legalFormCd": "",
+          "taxPayerNum": "",
+          "ogrnNum": "",
+          "bussinessLifetimeMonthCnt": 0,
+          "monthlyNetProfitAmt": 0,
+          "monthlyProceedsAmt": 0,
+          "psScore": 0,
+          "bcoOperationCnt": 0,
+          "bkiConsentObtainFlg": "",
+          "bkiConsentObtainDt": "",
+          "citizenshipGeographyCd": "",
+          "pledgeCoverageRate": 0,
+          "mdmCustomerRk": 0,
+          "mdmCustomerId": 0,
+          "fullName": "",
+          "shortName": "",
+          "licActivityKindNm": ""
+        },
+        "dmPprofCorpAccount": [
+          {
+            "mdmCustomerRk": 0,
+            "mdmCustomerId": "",
+            "branchId": "",
+            "branchNm": "",
+            "internalOrgId": "",
+            "internalOrgNm": "",
+            "productCd": "",
+            "productNm": "",
+            "agreementRk": 0,
+            "contractId": "",
+            "accountTypeInfo": "",
+            "accountRk": 0,
+            "accountNum": "",
+            "accountTypeCd": "",
+            "currencyIsoId": "",
+            "openDt": "",
+            "closeDt": "",
+            "accountStatusCd": "",
+            "balanceAmt": 0,
+            "balanceDt": "",
+            "minimumBalanceAmt": 0,
+            "minimumBalanceFlg": "",
+            "minbalChannelPlacementInfo": "",
+            "interestPeriodCd": "",
+            "interestPeriodDesc": "",
+            "accountBlockFlg": "",
+            "accountBlockAmt": 0,
+            "accountBlockDt": "",
+            "sourceSystemCd": "",
+            "legalEntityId": 0,
+            "dmPprofCorpAccountMove": [
+              {
+                "accountRK": 0,
+                "accountNum": "",
+                "curencyIsoId": "",
+                "mdmCustomerRk": 0,
+                "mdmCustomerId": "",
+                "averageBalanceAmt": 0,
+                "sumDailyBalanceAmt": 0,
+                "balanceDayCnt": 0,
+                "averageTurnDebetAmt": 0,
+                "sumDailyTurnDebetAmt": 0,
+                "turnDebetDayCnt": 0,
+                "averageTurnCreditAmt": 0,
+                "turnCreditDayCnt": 0,
+                "reportDt": "2020-07-08",
+                "sumDailyTurnCreditAmt": 0
+              }
+            ]
+          }
+        ],
+        "dmPprofCorpAggSalaryTurn": [
+          {
+            "mdmCustomerId": "",
+            "mdmCustomerRk": 0,
+            "yearMonth": "2020-08-08",
+            "individualCnt": 0,
+            "debetSalaryTurnAmtNc": 0,
+            "debetSalaryTurnAmt": 0,
+            "currencyIsoId": ""
+          }
+        ],
+        "dmPprofCorpAggClearTurn": [
+          {
+            "yearMonth": "2020-08-08",
+            "gccLoanIssueAmt": 0,
+            "gccInternalTransferAmt": 0,
+            "gccClearDebetAmt": 0,
+            "gccClearDebetEntryCnt": 0,
+            "gccClearCreditAmt": 0,
+            "gccClearCreditEntryCnt": 0,
+            "noAccountTurnWeekCnt": 0,
+            "accountCounterpartyCnt": 0,
+            "mdmCustomerId": "",
+            "mdmCustomerRk": 0
+          }
+        ],
+        "dmPprofCustomerAddress": [
+          {
+            "addressTypeCd": "",
+            "mdmCustomerId": "",
+            "building": "",
+            "city": "",
+            "construction": "",
+            "countryCd": "",
+            "district": "",
+            "flat": "",
+            "fullAddressInfo": "",
+            "kladrCd": "",
+            "regionCd": "",
+            "street": "",
+            "town": "",
+            "zipCd": ""
+          }
+        ]
+      },
+      "dmCfRejectedApplicationLe": [
+        {
+          "applicationRk": 10001,
+          "applicationId": "VARCHAR(50)",
+          "typeCd": "1",
+          "sourceSystemCd": "VARCH",
+          "customerMdmId": "VARCHAR(50)",
+          "applicationStatusCd": "VARCHAR(30)",
+          "openDt": "2020-07-08",
+          "closePlanDt": "2020-07-08",
+          "closeFactDt": "2020-07-08",
+          "currencyIsoId": "RUB",
+          "productId": "VARCHAR(120)",
+          "loanIntAmt": 10001,
+          "loanAmt": 10001,
+          "limitIntAmt": 10001,
+          "limitAmt": 10001,
+          "overdueAmt": 10001,
+          "overdueDaysCnt": 12,
+          "monthlyPaymentAmt": 10001,
+          "linksFlg": "1",
+          "rootAgreementId": "VARCHAR(200)",
+          "salaryCd": "1",
+          "categoryTypeCd": "1",
+          "segmentTypeCd": "VARCHAR(100)",
+          "preapprovedFlg": "1",
+          "liabilityTypeCd": "CH4",
+          "spzReasonCd": "VARCHA",
+          "scoringReasonCdList": "VARCHAR(700)",
+          "otherReasonCd": "VARCHAR(50)",
+          "systemId": "VARCHAR(20)"
+        }
+      ]
+    }
+  ]
+}
